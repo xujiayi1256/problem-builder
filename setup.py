@@ -97,7 +97,7 @@ setup(
     description='XBlock - Problem Builder',
     packages=find_packages(),
     install_requires=[
-        'XBlock>=1.2',
+        'XBlock',
         'xblock-utils',
     ],
     entry_points={
